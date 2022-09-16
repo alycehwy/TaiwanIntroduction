@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <main>
+        <header class="contact-header">
+            <h1>Taiwan</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="table.html" target="_blank">Table</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+            <div>
+                <input type="search" name="search" placeholder="Search something?">
+                <input type="submit" value="Search">
+            </div>
+        </nav>
+        <section class="contact-body">
+            <h2>= Survey =</h2>
+            <form action="post">
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" placeholder="Your First Name">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" placeholder="Your Last Name">
+                    <label for="gender">Gender</label>
+                    <input type="radio" value="M" name="gender">Male
+                    <input type="radio" value="W" name="gender">Female
+                    <input type="radio" value="Not" name="gender"> Perfer Not to Say
+                    <label for="birth-date">Date of Birth</label>
+                    <input type="date" name="birth-date">
+                    <label for="age">Age</label>
+                    <select name="age">
+                        <option value="choose">Choose</option>
+                        <optgroup label="Under 18">
+                            <option value="under 13">Under 13</option>
+                            <option value="13-18">13-18</option>
+                        </optgroup>
+                        <optgroup label="18+">
+                            <option value="19-28">19-28</option>
+                            <option value="29-38">29-38</option>
+                            <option value="39-48">39-48</option>
+                            <option value="49-58 or older">49-58 or older</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Your Email">
+                    <label for="tel">Phone number</label>
+                    <input type="tel" name="tel" placeholder="Your Phone Number">
+                    <label for="postal">Postal</label>
+                    <input type="text" name="postal" placeholder="Postal">
+                </div>
+                <div>
+                    <label for="ever-came">Ever came to Taiwan?</label>
+                    <input type="radio" value="Y" name="ever-came">Yes
+                    <input type="radio" value="N" name="ever-came">No
+                    <label for="times">How many times you visited Taiwan?</label>
+                    <input type="number" name="times">
+                    <label for="want-visit">You want to visit Taiwan?</label>
+                    <input type="radio" value="Y" name="want-visit">Yes
+                    <input type="radio" value="N" name="want-visit">No
+                    <label for="city">Which city you want to visit?</label>
+                    <input type="text" name="city" placeholder="Enter a city">
+                    <label for="food">Which Taiwan street food you want to try?</label>
+                    <input type="text" name="food" placeholder="Enter a food name">
+                    <label for="interested">Which part is the most interested about Taiwan?</label>
+                    <input type="radio" value="history" name="interested">History
+                    <input type="radio" value="culture" name="interested">Culture
+                    <input type="radio" value="attractions" name="interested">Attractions
+                    <input type="radio" value="specialty" name="interested">Specialty
+                    <input type="radio" value="Food" name="interested">Food
+                    <label for="comment">Something want to say?</label>
+                    <textarea name="comment" placeholder="Write something you want to tell us"></textarea>
+                    <label for="time">If could, what time could we contact you?</label>
+                    <input type="time" name="time">
+                </div>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+        <footer>
+            <span>Welcome to here! Also welcome to come to Taiwan!</span>
+            <span>Copyright &copy; 2022 ALY Company | Disign by Alyce</span>
+        </footer>
+    </main>
+</body>
+
+</html>
